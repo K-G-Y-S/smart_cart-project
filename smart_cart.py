@@ -85,6 +85,8 @@ def dijkstra(graph, start, end):
 					print(position)
 					sendposition(position)
 					state = state - 1
+			position = 'f'
+			
 			if state < 0:
 				for i in range(abs(state)):
 					position = 'r'
